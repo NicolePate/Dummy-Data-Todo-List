@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .redText {
+            color: red;
+        }
+        .greenText {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="fetchTodos()">Fetch Todos</button>
+    <button onclick="logTodos()">Log Todos</button>
+    <button onclick="populateTodos()">Populate Todos</button>
+    <label for="input-id">User ID 1-10:</label>
+    <input type="number" id="input-id" size="10" name="idNumber">
+    <button onclick="filterTodos()">Filter Todos</button>
+    <button onclick="showCompleteTodos()">Show Complete Todos</button>
+    <button onclick="showIncompleteTodos()">Show Incomplete Todos</button>
+    <ol id="todo-list">
+    <!-- LIs will go here -->
+ </ol>
+</body>
+<script src="scripts.js"></script>
+</html>
